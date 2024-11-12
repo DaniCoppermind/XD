@@ -55,8 +55,6 @@
 
         button.classList.add('disabled');
 
-        audio.currentTime = 53;
-
         const audioContext = new (window.AudioContext ||
           window.webkitAudioContext)();
         const gainNode = audioContext.createGain();
@@ -97,7 +95,7 @@
         <div class="w-full max-w-md">
           <div id="hiddenImage" class="mb-6 mt-5">
             <img
-              src="/edimargay.jpg"
+              src="./assets/edimargay.jpg"
               alt="la lesbiana de edimar"
               class="w-full rounded-lg shadow-lg"
             />
@@ -107,7 +105,7 @@
 
       <audio id="audioPlayer" preload="auto">
         <source
-          src="/Clean Bandit - Symphony feat. Zara Larsson.mp3"
+          src="./assets/audio.mp3"
           type="audio/mpeg"
         />
       </audio>
